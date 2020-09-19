@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <iostream>
 #include <vector>
 
@@ -17,3 +18,24 @@ int main()
     return 0;
    
 }    
+=======
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main()
+{
+    int n,p,min=0;
+    cin>>n;
+    cin>>p;
+    min=(n/2)-(p/2);
+    if(min>p/2)
+    {
+        min=p/2;
+    } 
+    cout<<min;
+    return 0;
+   
+}    
+>>>>>>> 1e2a4fd7eb47be9d2cd5f2bcd26fbbb57033845c
