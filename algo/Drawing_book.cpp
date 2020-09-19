@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #include <iostream>
 #include <vector>
 
@@ -18,7 +18,6 @@ int main()
     return 0;
    
 }    
-=======
 #include <iostream>
 #include <vector>
 
@@ -38,4 +37,3 @@ int main()
     return 0;
    
 }    
->>>>>>> 1e2a4fd7eb47be9d2cd5f2bcd26fbbb57033845c
