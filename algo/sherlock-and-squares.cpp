@@ -14,5 +14,6 @@ int main()
   {
      int a,b;
      cin>>a>>b;
-     cout<<(sqrt(b)-sqrt(a))<<endl;
+     cout<<(int)(floor(sqrt(b)-ceil(sqrt(a))+1))<<endl;
   }
+} 
