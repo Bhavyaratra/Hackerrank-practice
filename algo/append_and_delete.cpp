@@ -18,7 +18,7 @@ using namespace std;
 //     return 0;
 // }
 int main()
- {
+{
     string s,t;
     int k,i;
     cin>>s;
@@ -32,17 +32,18 @@ int main()
     b=abs(tl-(i));
 
     c=a+b;
-    
+    if((sl+tl)<k)
+    {
+        cout<<"Yes";
+        return 0;
+    }
 
    if(c<k)
    {
-       cout<<"yes";
-       return 0;
-   }
-   if((k-c+(2*i))%2==0)
-   cout<<"Yes";
+
+   if((c-k)%2==0)
+    cout<<"Yes";
    else 
-    {
-        cout<<"No";
-    }
- }      
+    cout<<"No";
+   }
+}      
