@@ -12,9 +12,14 @@ int main()
         cout<<"0";
         return 0;
     }
+    
     if(y1>y2)
     {
         cout<<"10000";
+    }
+    else if(m1<m2)
+    {
+        cout<<"0";
     }
     else if(m1>m2)
     {
@@ -24,5 +29,10 @@ int main()
     {
         cout<<15*(d1-d2);
     }
+    else
+    {
+        cout<<"0";
+    }
+    
     
 }
