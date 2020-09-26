@@ -30,12 +30,12 @@ int main()
 
         }
     }
-    for(int i=0;i<mx;i++)
+    for(int i=0;i<=mx;i++)
     {
-        if(arr[i]!=0 && arr[i]!=it)
+        if(arr[i]!=0)
         {
             sum = sum + arr[i];
         }
     }
-    cout<<sum;
+    cout<<sum-it;
 }    
