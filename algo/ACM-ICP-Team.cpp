@@ -17,6 +17,7 @@ int main()
         cin>>str;
         a.push_back(str);
     }  
+    int val=0;
 
     for(int i=0;i<(n-1);i++)
     {
@@ -33,9 +34,15 @@ int main()
           if(mx<count)
           {
             mx=count;
+            val=1;
           }
+          else if(mx==count)
+          {
+              val++;
+          }
+          
         }
     }
 
-    cout<<mx;
+    cout<<mx<<endl<<val;
 }    
