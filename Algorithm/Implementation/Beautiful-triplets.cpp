@@ -11,7 +11,7 @@ int main()
 {
     int n,d,count=0;
     cin>>n>>d;
-    int a[n];
+    int a[1000];
     for(int i=0;i<n;i++)
     {
         cin>>a[i];
