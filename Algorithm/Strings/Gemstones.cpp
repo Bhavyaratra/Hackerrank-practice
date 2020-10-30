@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    int arr[25]={0};
+    int arr[26]={0};
     int n,count=0;
     cin>>n;
     
@@ -18,11 +18,13 @@ int main()
         {
             if(arr[s[i]-'a']==j)
             arr[s[i]-'a']++;
-            
-            if(arr[s[i]-'a']==n)
-            count++;
-        
         }
+    }
+    for(int x : arr)
+    { 
+        if(x>=n)
+        count++;
+
     }
 
     cout<<count;
