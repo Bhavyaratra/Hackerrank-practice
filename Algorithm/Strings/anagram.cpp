@@ -23,12 +23,12 @@ int main()
     }
     else
     {
-        for(int i=0;i<(len/2)-1;i++)
+        for(int i=0;i<(len/2);i++)
         {
             arr[s[i]-'a']++;
         }
 
-        for(int i=0;i<(len/2)-1;i++)
+        for(int i=(len/2);i<len;i++)
         {
             arr[s[i]-'a']--;
         }
@@ -40,10 +40,8 @@ int main()
                 c=c+abs(x);
             }
         }
-     cout<<c<<endl;
+     cout<<c/2<<endl;
     }
-    
- 
-     
+      
 }
 }
