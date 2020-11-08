@@ -46,3 +46,21 @@ int main()
     }
 
 }
+
+/*////////////////GCD
+int gcd(int a, int b) {
+    return a==0?b:gcd(b%a,a);
+}
+
+int main() {
+    int t;
+    cin >> t;
+    while(t--) {
+        int a,b;
+        cin >> a >> b;
+        cout << (a/gcd(a,b))*(b/gcd(a,b)) << endl;
+    }
+    
+    return 0;
+}
+*/
